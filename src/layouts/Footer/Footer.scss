@@ -12,12 +12,11 @@
         width: 98%;
         padding-top: 10px;
         justify-content: space-evenly;
+        color: white;
         @media (max-width:425px){        
             flex-direction: column;
             align-items: center;
-         }
-
-        color: white;
+         }        
         p{
             margin: 2px;
             font-weight: 500;

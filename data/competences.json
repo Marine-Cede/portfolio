@@ -1,0 +1,9 @@
+ [
+        { "name": "JavaScript", "logo" :"devicon-javascript-plain" },
+        { "name": "React", "logo": "devicon-react-original" },        
+        { "name": "HTML5", "logo": "devicon-html5-plain" },
+        { "name": "CSS", "logo": "devicon-css3-plain" },
+        { "name": "Node.js", "logo": "devicon-nodejs-plain" },
+        { "name": "Git", "logo": "devicon-git-plain" },
+        { "name":"Sass", "logo":"devicon-sass-original"}
+    ]

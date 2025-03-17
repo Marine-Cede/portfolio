@@ -1,0 +1,39 @@
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    gap: 10px;
+    &__contact{
+        display:flex;
+        flex-direction: row;
+        width: 98%;
+        padding-top: 10px;
+        justify-content: space-evenly;
+        @media (max-width:425px){        
+            flex-direction: column;
+            align-items: center;
+         }
+
+        color: white;
+        p{
+            margin: 2px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+    &__copyright{
+        color: white;
+        p{
+            margin: 2px;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+
+}

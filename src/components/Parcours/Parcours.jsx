@@ -24,7 +24,7 @@ export default function Parcours(){
                     <h3 className="vertical-timeline-element-title">Bac +2 Développeur Web</h3>
                     <h4 className="vertical-timeline-element-subtitle">Niort, Openclassroom</h4>
                     <p>
-                    J'ai appris les rudiement du développement Web, en développant avec des technologies comme le React ou le NodeJS. J'ai pu développer un certains nombre de projets professionnalisant.
+                    J'ai appris les rudiments du développement Web, en développant avec des technologies comme le React ou le NodeJS. J'ai pu développer un certains nombre de projets professionnalisant.
                     </p>
                 </VerticalTimelineElement>    
                 

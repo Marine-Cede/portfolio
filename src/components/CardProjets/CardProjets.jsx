@@ -6,7 +6,7 @@ export default function CardProjets({projet, }){
             <h2 className="card__title">{projet.name}</h2>
             <p className="card__description">{projet.description}</p>
             <div className="card__probleme">
-                <p className="card__probleme__description" >Probléme : {projet.probleme}</p>
+                <p className="card__probleme__description" >Problème : {projet.probleme}</p>
                 <p className="card__probleme__description" >Solution : {projet.resolution}</p>
             </div>
             <a href={projet.url} className="card__url">Cliquez ici pour le voir sur Github ! </a>

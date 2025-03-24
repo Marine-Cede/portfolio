@@ -20,20 +20,22 @@
         width: auto;
         padding: 5px;
     }
-    &__description{
-        padding: 5px;
-        width: 95%;
-
-    }
+    
     &__url {
         padding: 5px;
         text-decoration: none;
-            color: black;
-            font-size: larger;
+        color: black;
+        font-size: larger;
+        margin-top: 15px;
     }
     &__url:hover{
         color: #4b5587;
     
+    }
+    &__description{
+        padding: 5px;
+        width: 95%;
+
     }
     &__tags{
         padding: 5px;
@@ -48,6 +50,19 @@
             font-weight: bold;
             border-radius: 15px;
             padding: 5px;
+        }
+    }
+    &__probleme{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        &__description{
+            padding: 5px;
+            width: 95%;
+            margin: 0;
+    
         }
     }
 }

@@ -1,11 +1,15 @@
  [
         { "id":"kasa.png","name": "Kasa", "description": "Front pour une entreprise de location d'appartements entre particuliers",
+        "probleme":"L'affichage des étoiles ", "resolution":"Utiliser une boucle pour afficher un nombre d'étoiles correspondant à la note en utilisant des svg ",
          "url": "https://github.com/Marine-Cede/Project_kasa/tree/feat/MarineCede","tags":["ReactJs", "scss", "vite"], "altImg": "Image du projet Kasa" },
         { "id":"monVieuxGrimoire.png", "name": "Mon vieux grimoire", "description": "BackEnd pour un site de notation de livres",
+        "probleme": "Récupération des trois livres les mieux notés", "resolution": "Tri des livres par notes décroissante et récupérations des trois premiers",
          "url": "https://github.com/Marine-Cede/mon-vieux-grimoire-back/tree/feat/marine-cede", "tags":["NodeJs", "MongoDb", "Express"], "altImg": "Image du projet mon vieux grimoire"},
          { "id":"booki.png", "name": "Booki", "description": "Création d'un site internet d'hébergements et d'activité sans la ville de leur choix ",
+         "probleme": "Gestion des flexbox", "resolution": "Utilisation des propriétés comme align-items, justify-content etc..",
           "url": "https://github.com/Marine-Cede/booki-starter-code/tree/projet/MarineCede", "tags":["HTML", "CSS"], "altImg": "Image du projet Booki"},
           { "id":"sophie_bluel.png", "name": "Sophie Bluel", "description": "Mise en place de la récupération de données Backend dans le Front d'un site d'architecte d'intérieur ",
+           "probleme": "Apréhension du fetch et de l'asynchrone", "resolution": "Comprendre le fonctionnement de fetch en l'utilisant avec async et await pour gérer les requêtes HTTP de manière asynchrone ",
            "url": "https://github.com/Marine-Cede/mon-vieux-grimoire-back/tree/feat/marine-cede", "tags":["HTML", "JavaScript"], "altImg": "Image du projet architecte d'interieur"}
      
     ]
